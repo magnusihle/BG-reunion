@@ -30,14 +30,14 @@ const Home: NextPage = () => {
         className="bg-cover bg-center h-screen w-full"
         style={{ backgroundImage: "url(/bg5.jpeg)" }}
       >
-        <div className="mx-auto max-w-7xl px-6 pt-32 text-center sm:pt-40 lg:px-8 relative">
+        <div className="mx-auto max-w-7xl px-6 pt-44 text-center sm:pt-40 lg:px-8 relative">
           <p className="text-base font-semibold leading-8 text-black uppercase">
             Velkomen til
           </p>
           <h1 className="sm:mt-4 text-3xl font-bold tracking-widest text-black uppercase sm:text-5xl">
             JOJO Vesterbro <br />X<br /> Distortion
           </h1>
-          <div className="mt-60 sm:mt-72 flex justify-center">
+          <div className="mt-72 sm:mt-72 flex justify-center">
             <button
               onClick={handleClick}
               className="bg-blue text-beige uppercase font-bold py-2 px-4 rounded"
