@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import { Lexend_Exa, Lexend_Tera } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react";
 
 const exa = Lexend_Exa({
   variable: "--font-exa",
@@ -19,6 +20,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <main className={`${tera.variable} ${exa.variable} font-sans`}>
       <Component {...pageProps} />
+      <Analytics />
     </main>
   );
 }
