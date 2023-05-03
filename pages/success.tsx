@@ -14,7 +14,7 @@ const SuccessPage = () => {
   }, [router]);
 
   return (
-    <div className="mx-auto max-w-7xl px-6 justify-center h-screen py-32 text-center sm:py-40 lg:px-8 relative">
+    <div className="mx-auto max-w-7xl px-6 bg-brown justify-center h-screen py-32 text-center sm:py-40 lg:px-8 relative">
       <h1 className="text-2xl text-beige font-bold uppercase">
         Takk for handelen, kjipt å bli scammet!
       </h1>
