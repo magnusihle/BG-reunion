@@ -24,23 +24,23 @@ const Home: NextPage = () => {
         <title>JOJO Vesterbro X Distortion</title>
         <meta property="og:title" content="JOJO Vesterbro X Distortion" />
         <meta property="og:description" content="Inngang + Mat" />
-        <meta property="og:image" content="/bg.jpg" />
+        <meta property="og:image" content="/bg5.jpeg" />
       </Head>
       <div
         className="bg-cover bg-center h-screen w-full"
-        style={{ backgroundImage: "url(/bg.jpg)" }}
+        style={{ backgroundImage: "url(/bg5.jpeg)" }}
       >
-        <div className="mx-auto max-w-7xl px-6 py-32 text-center sm:py-40 lg:px-8 relative">
-          <p className="text-base font-semibold leading-8 text-brown uppercase">
+        <div className="mx-auto max-w-7xl px-6 pt-32 text-center sm:pt-40 lg:px-8 relative">
+          <p className="text-base font-semibold leading-8 text-black uppercase">
             Velkomen til
           </p>
-          <h1 className="mt-4 text-3xl font-bold tracking-widest text-brown uppercase sm:text-5xl">
+          <h1 className="sm:mt-4 text-3xl font-bold tracking-widest text-black uppercase sm:text-5xl">
             JOJO Vesterbro <br />X<br /> Distortion
           </h1>
-          <div className="mt-52 flex justify-center">
+          <div className="mt-60 sm:mt-72 flex justify-center">
             <button
               onClick={handleClick}
-              className="bg-beige hover:bg-lightRed text-brown uppercase font-bold py-2 px-4 rounded"
+              className="bg-blue text-beige uppercase font-bold py-2 px-4 rounded"
             >
               Kjøp billett her
             </button>
