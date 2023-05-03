@@ -18,9 +18,6 @@ const SuccessPage = () => {
       <h1 className="text-2xl text-beige font-bold uppercase">
         Takk for handelen, kjipt å bli scammet!
       </h1>
-      <p className="mt-12 text-beige uppercase">
-        Du vil bli omdirigert til hjemmesiden om kort tid
-      </p>
     </div>
   );
 };
