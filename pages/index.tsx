@@ -40,9 +40,9 @@ const Home: NextPage = () => {
           <div className="mt-72 sm:mt-72 flex justify-center">
             <button
               onClick={handleClick}
-              className="bg-blue text-beige uppercase font-bold py-2 px-4 rounded"
+              className="bg-blue disabled text-beige uppercase font-bold py-2 px-4 rounded"
             >
-              Kjøp billett her
+              Sold out
             </button>
           </div>
         </div>
