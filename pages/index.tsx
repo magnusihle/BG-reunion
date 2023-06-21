@@ -21,28 +21,28 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>JOJO Vesterbro X Distortion</title>
+        <title>Bjørnegård class of 2013, 10 års jubileum</title>
         <meta property="og:title" content="JOJO Vesterbro X Distortion" />
         <meta property="og:description" content="Inngang + Mat" />
-        <meta property="og:image" content="/bg5.jpeg" />
+        <meta property="og:image" content="/bg-r.jpg" />
       </Head>
       <div
         className="bg-cover bg-center h-screen w-full"
-        style={{ backgroundImage: "url(/bg5.jpeg)" }}
+        style={{ backgroundImage: "url(/bg-r.jpg)" }}
       >
-        <div className="mx-auto max-w-7xl px-6 pt-44 text-center sm:pt-40 lg:px-8 relative">
-          <p className="text-base font-semibold leading-8 text-black uppercase">
+        <div className="mx-auto max-w-7xl px-6 pt-20 text-center sm:pt-80 lg:px-8 relative">
+          <p className="text-base font-semibold leading-8 text-darkGreen sm:text-green uppercase">
             Velkomen til
           </p>
-          <h1 className="sm:mt-4 text-3xl font-bold tracking-widest text-black uppercase sm:text-5xl">
-            JOJO Vesterbro <br />X<br /> Distortion
+          <h1 className="sm:mt-4 text-3xl font-bold tracking-widest text-green uppercase sm:text-5xl">
+            Bjørnegård <br /> 10 års jubileum
           </h1>
-          <div className="mt-72 sm:mt-72 flex justify-center">
+          <div className="mt-[55vh] sm:mt-40 flex justify-center">
             <button
               onClick={handleClick}
-              className="bg-blue disabled text-beige uppercase font-bold py-2 px-4 rounded"
+              className="bg-blue text-gray uppercase font-bold py-2 px-4 rounded"
             >
-              Sold out
+              Kjøp inngang
             </button>
           </div>
         </div>
