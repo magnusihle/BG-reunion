@@ -21,8 +21,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Bjørnegård class of 2013, 10 års jubileum</title>
-        <meta property="og:title" content="JOJO Vesterbro X Distortion" />
+        <title>Bjørnegård, 10 års jubileum</title>
+        <meta property="og:title" content="Bjørnegård, 10 års jubileum" />
         <meta property="og:description" content="Inngang + Mat" />
         <meta property="og:image" content="/bg-r.jpg" />
       </Head>

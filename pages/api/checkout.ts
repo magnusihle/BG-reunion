@@ -31,6 +31,17 @@ export default async function handler(
             quantity: 1,
           },
         ],
+        custom_fields: [
+          {
+            key: "allergies",
+            label: {
+              type: "custom",
+              custom: "Har du noen allergier?",
+            },
+            type: "text",
+            optional: true,
+          },
+        ],
         mode: "payment",
         success_url: `${req.headers.origin}/success?session_id={CHECKOUT_SESSION_ID}`,
         cancel_url: `${req.headers.origin}/canceled`,
